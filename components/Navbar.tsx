@@ -9,7 +9,7 @@ const Navbar = () => {
             <nav className="flex-1 pr-16">
                 <ul className="flex justify-end items-center h-full w-full mx-auto text-right ">
                     <li className="group">
-                        <Link className="group relative text-xl font-semibold tracking-widest flex" href={"/cousine/all"} > Cuisines </Link>
+                        <Link className="group relative text-md  uppercase font-black tracking-widest flex" href={"/cuisines/all"} > Cuisines </Link>
                         <span className="absolute top-20 bg-zinc-900/50 rounded backdrop-blur-lg rouded hidden group-hover:flex transition ease-in duration-700 flex-col p-10 space-y-10">
                             <span className="flex rouded hover:bg-zinc-700/50 backdrop-blur-lg h-full"> <h3 className="text-left pl-6 text-md font-semibold tracking-widest"> Indonesian </h3></span>
                             <span className="rouded text-left pl-6"> <h3 className="text-md font-semibold tracking-widest"> Italian </h3></span>
@@ -18,8 +18,8 @@ const Navbar = () => {
                         </span>
                     </li>
                     
-                    <li className="w-64 text-xl font-semibold tracking-widest"> Categories </li>
-                    <li className="w-64 text-xl font-semibold tracking-widest"> Types </li>
+                    <li className="w-64 text-md  uppercase font-black tracking-widest"> Categories </li>
+                    <li className="w-64 text-md  uppercase font-black tracking-widest"> Types </li>
                 </ul>
             </nav>
         </div>
