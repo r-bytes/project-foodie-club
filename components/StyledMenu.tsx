@@ -11,18 +11,18 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const StyledMenu = styled((props: MenuProps) => (
-  <Menu
-    elevation={0}
-    anchorOrigin={{
-      vertical: 'bottom',
-      horizontal: 'right',
-    }}
-    transformOrigin={{
-      vertical: 'top',
-      horizontal: 'right',
-    }}
-    {...props}
-  />
+    <Menu
+        elevation={0}
+        anchorOrigin={{
+        vertical: 'bottom',
+        horizontal: 'right',
+        }}
+        transformOrigin={{
+        vertical: 'top',
+        horizontal: 'right',
+        }}
+        {...props}
+    />
 ))(({ theme }) => ({
   '& .MuiPaper-root': {
     borderRadius: 6,
@@ -72,6 +72,7 @@ export default function CustomizedMenus() {
         disableElevation
         onClick={handleClick}
         endIcon={<KeyboardArrowDownIcon />}
+        className="bg-gray-600"
       >
         Cuisines
       </Button>
