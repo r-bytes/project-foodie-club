@@ -1,4 +1,3 @@
-import { RecipeItem } from "../../components"
 import { useRouter } from "next/router"
 
 const Cuisine = () => {
