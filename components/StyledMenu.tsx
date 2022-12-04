@@ -14,12 +14,12 @@ const StyledMenu = styled((props: MenuProps) => (
     <Menu
         elevation={0}
         anchorOrigin={{
-        vertical: 'bottom',
-        horizontal: 'right',
+            vertical: 'bottom',
+            horizontal: 'right',
         }}
         transformOrigin={{
-        vertical: 'top',
-        horizontal: 'right',
+            vertical: 'top',
+            horizontal: 'right',
         }}
         {...props}
     />
