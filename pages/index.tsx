@@ -24,8 +24,8 @@ const Home: NextPage = () => {
                 <div className="w-3/4 flex justify-between space-x-5">
                     <div className="w-full max-h-[500px] text-left">
                         <h1 className="text-5xl font-bold tracking-widest leading-loose"> Digital Raycipes.. </h1>
-                        <h3 className="tracking-widest"> What's cooking ya'll?<br /> Are you hungry yet? Or just for 
-                        Cook, Dare, Eat, Share </h3>
+                        <h3 className="tracking-widest"> What's cooking ya'll?<br /> Feeling uninspired, hung or hangry?
+                        You're at the right place! </h3>
                     </div>
                     <div className="w-full rounded p-6">
                         <Image
